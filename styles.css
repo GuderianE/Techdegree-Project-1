@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #97a3ad;
 }
 /* Link Styles */
 
@@ -86,7 +86,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: rgb(133, 194, 35);
 }
 .card {
   margin: 30px;
@@ -95,11 +95,11 @@ header .profile-image:hover {
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 10%;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: green;
 }
 
 ul.skills {
