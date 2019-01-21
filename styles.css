@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #97a3ad;
+  background: #b4c0ca;
 }
 /* Link Styles */
 
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/Leaves-Background.jpg') no-repeat top center ;
+  background: url('images/Leaves-Background.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -76,6 +76,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.0) rotate(360deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -88,17 +89,82 @@ header .profile-image:hover {
   background-color: #222;
   color: rgb(133, 194, 35);
 }
+
+.myoutercontainer {
+  position:relative;
+}
 .card {
-  margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: rgb(227, 237, 243);
   border-bottom: 4px solid #ccc;
+  margin: 30px;
   border-radius: 10%;
   transition: all .5s;
 }
-.card:hover {
+
+#first_div {
+  width: 100%; 
+  height: 50%; 
+  padding: 20px 40px 40px;
+  margin: 10px;
+  float:right; 
+  background-color: rgb(227, 237, 243); 
+  border-bottom: 3px solid #ccc;
+  border-radius: 10%;
+  transition: all .5s;
+}
+
+#second_div {
+  width: 100%; 
+  height: 50%;
+  padding: 20px 40px 40px;
+  margin: 10px; 
+  float:left; 
+  background-color: rgb(227, 237, 243); 
+  border-bottom: 3px solid #ccc;
+  border-radius: 10%;
+  transition: all .5s;
+}
+
+#third_div {
+  width: 100%; 
+  height: 50%;
+  padding: 20px 40px 40px;
+  margin: 10px; 
+  float:left; 
+  background-color: rgb(227, 237, 243); 
+  border-bottom: 3px solid #ccc;
+  border-radius: 10%;
+  transition: all .5s;
+}
+
+#forth_div {
+  width: 100%; 
+  height: 50%;
+  padding: 20px 40px 40px;
+  margin: 10px; 
+  float:left; 
+  background-color: rgb(227, 237, 243); 
+  border-bottom: 3px solid #ccc;
+  border-radius: 10%;
+  transition: all .5s;
+}
+
+#fifth_div {
+  width: 100%; 
+  height: 50%;
+  padding: 20px 40px 40px;
+  margin: 10px; 
+  float:left; 
+  background-color: rgb(227, 237, 243); 
+  border-bottom: 3px solid #ccc;
+  border-radius: 10%;
+  transition: all .5s;
+}
+
+  .card:hover {
   border-color: green;
 }
 
@@ -121,14 +187,23 @@ ul.skills {
 }
 
 footer {
-  width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
 }
 
 footer .copyright {
+  color: white;
   top: -8px;
   font-size: .75em;
+}
+
+footer .back {
+  text-align: right;
+  font-size: 10px;
+}
+
+.black:hover{
+  color: rgb(5, 110, 31);
 }
 
 footer ul {
@@ -151,9 +226,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
@@ -199,8 +272,9 @@ a.social:hover {
 
   footer {
     font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
+    max-width: 100%;
+    margin-top: 40px auto;
+    background-color: black;
   }
 
 }
