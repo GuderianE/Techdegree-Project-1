@@ -104,64 +104,40 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
-#first_div {
+.colum {
   width: 100%; 
   height: 50%; 
   padding: 20px 40px 40px;
   margin: 10px;
-  float:right; 
+  float: left;
   background-color: rgb(227, 237, 243); 
-  border-bottom: 3px solid #ccc;
+  border-bottom: 4px solid #ccc;
   border-radius: 10%;
   transition: all .5s;
+
+}
+.first_div {
+  flex: 1;
 }
 
-#second_div {
-  width: 100%; 
-  height: 50%;
-  padding: 20px 40px 40px;
-  margin: 10px; 
-  float:left; 
-  background-color: rgb(227, 237, 243); 
-  border-bottom: 3px solid #ccc;
-  border-radius: 10%;
-  transition: all .5s;
+.second_div {
+  flex: 1;
 }
 
-#third_div {
-  width: 100%; 
-  height: 50%;
-  padding: 20px 40px 40px;
-  margin: 10px; 
-  float:left; 
-  background-color: rgb(227, 237, 243); 
-  border-bottom: 3px solid #ccc;
-  border-radius: 10%;
-  transition: all .5s;
+.third_div {
+  flex: 1;
 }
 
-#forth_div {
-  width: 100%; 
-  height: 50%;
-  padding: 20px 40px 40px;
-  margin: 10px; 
-  float:left; 
-  background-color: rgb(227, 237, 243); 
-  border-bottom: 3px solid #ccc;
-  border-radius: 10%;
-  transition: all .5s;
+.forth_div {
+  flex: 1;
 }
 
-#fifth_div {
-  width: 100%; 
-  height: 50%;
-  padding: 20px 40px 40px;
-  margin: 10px; 
-  float:left; 
-  background-color: rgb(227, 237, 243); 
-  border-bottom: 3px solid #ccc;
-  border-radius: 10%;
-  transition: all .5s;
+.fifth_div {
+  flex: 1;
+}
+
+.sixed_div {
+  flex: 1;
 }
 
   .card:hover {
