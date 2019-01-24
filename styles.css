@@ -66,12 +66,12 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
+  margin-top: 60px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 5px solid white;
+  transition: all .9s;
 }
 header .profile-image:hover {
   transform: scale(1.0) rotate(360deg);
@@ -90,9 +90,6 @@ header .profile-image:hover {
   color: rgb(133, 194, 35);
 }
 
-.myoutercontainer {
-  position:relative;
-}
 .card {
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -109,35 +106,9 @@ header .profile-image:hover {
   height: 50%; 
   padding: 20px 40px 40px;
   margin: 10px;
-  float: left;
   background-color: rgb(227, 237, 243); 
   border-bottom: 4px solid #ccc;
   border-radius: 10%;
-  transition: all .5s;
-
-}
-.first_div {
-  flex: 1;
-}
-
-.second_div {
-  flex: 1;
-}
-
-.third_div {
-  flex: 1;
-}
-
-.forth_div {
-  flex: 1;
-}
-
-.fifth_div {
-  flex: 1;
-}
-
-.sixed_div {
-  flex: 1;
 }
 
   .card:hover {
@@ -249,7 +220,7 @@ a.social:hover {
   footer {
     font-size: 1.3em;
     max-width: 100%;
-    margin-top: 40px auto;
+    margin-top: 40px;
     background-color: black;
   }
 
